@@ -4,7 +4,7 @@ import swaggerUi from "swagger-ui-express";
 import swaggerJsdoc from "swagger-jsdoc";
 import dotenv from "dotenv";
 import winston from "winston/lib/winston/config/index.js";
-import logger from "./logger/logger.js";
+import logger from "./util/logger.js";
 
 dotenv.config();
 
