@@ -26,7 +26,7 @@ const swaggerOptions = {
     },
     servers: [
       {
-        url: `http://localhost:${PORT}`,
+        url: "https://bmi-api-506f.onrender.com" ,
         description: "Development server",
       },
     ],
